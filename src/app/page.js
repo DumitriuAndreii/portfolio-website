@@ -4,7 +4,7 @@ import { Footer } from "./components/Footer";
 import { HeroSection } from "./components/HeroSection";
 import { Navbar } from "./components/Navbar";
 import { ProjectsSection } from "./components/ProjectsSection";
-
+import {Experience} from './components/Experience';
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#121212]">
@@ -13,6 +13,7 @@ export default function Home() {
         <HeroSection />
         <AboutSection />
         <ProjectsSection />
+        <Experience />
         <EmailSection />
       </div>
         <Footer />
