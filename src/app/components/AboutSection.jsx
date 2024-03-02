@@ -9,11 +9,13 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
+        <li>HTML - CSS - JavaScript</li>
+        <li>ReactJS</li>
+        <li>Firebase</li>
+        <li>NextJS</li>
+        <li>Redux</li>
         <li>Node.js</li>
-        <li>Node.js</li>
-        <li>Node.js</li>
-        <li>Node.js</li>
-        <li>Node.js</li>
+        <li>Mongo DB</li>
       </ul>
     ),
   },
@@ -22,10 +24,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>CNI</li>
-        <li>CNI</li>
-        <li>CNI</li>
-        <li>CNI</li>
+        <li>Informatics High School Piatra Neamt</li>
+        <li>Technical University Cluj-Napoca : Automation and Applied Informatics (in English language)</li>
       </ul>
     ),
   },
@@ -34,10 +34,7 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>ECDL</li>
-        <li>ECDL</li>
-        <li>ECDL</li>
-        <li>ECDL</li>
+        <li>IC3</li>
       </ul>
     ),
   },

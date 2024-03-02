@@ -26,7 +26,7 @@ export const EmailSection = () => {
           <Link href="github.com">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/andrei-cristian-dumitriu-36673a230/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>
