@@ -34,7 +34,6 @@ export const Navbar = () => {
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-3">
         <Link
           href={"/"}
-          className="text-2xl md:text-5xl text-white font-semibold"
         >
            <Image
             src="/images/result.png" 
