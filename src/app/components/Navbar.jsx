@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import { NavLink } from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { MenuOveray } from "./MenuOveray";
+import Image from "next/image";
+
 const navLinks = [
   {
     title: "About",
@@ -14,10 +16,16 @@ const navLinks = [
     path: "#projects",
   },
   {
+    title: "Experience",
+    path: "#experience",
+  },
+  {
     title: "Contact",
     path: "#contact",
   },
 ];
+
+
 
 export const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -28,7 +36,13 @@ export const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          LOGO
+           <Image
+            src="/images/result.png" 
+            alt="Logo" 
+            width={110} 
+            height={110} 
+            className="ml-10"
+          />
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
@@ -42,7 +56,7 @@ export const Navbar = () => {
           )}
         </div>
         <div className="menu hidden md:block md:w-auto" id="navbar">
-          <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0 ">
+          <ul className="flex p-10 md:p-10 md:flex-row md:space-x-8 mt-0 ">
             {navLinks.map((link, index) => (
               <li key={index}>
                 <NavLink href={link.path} title={link.title} />
